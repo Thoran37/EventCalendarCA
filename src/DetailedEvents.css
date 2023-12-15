@@ -1,0 +1,41 @@
+.SpecialBox{
+  background-color: #ac3f21;
+  border-radius: 10%,15%;
+  /* max-width: 18%; */
+  inline-size: 20%;
+  border-style: ridge;
+  border-color: #a72400;
+  padding: 10px;
+  float: right;
+  margin-right: 75px;  
+}
+.classlogo{
+  width: 500px;
+  display: block;
+  margin: auto;
+   border-radius: 50%; 
+}
+.Description{
+  text-align: center;
+  /* float: left; */
+  max-width: 60%;
+  margin-bottom: 10%;
+  background-color: #facf5a;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+body{
+  background-color: #ecfffb;
+}.coorlist{
+  text-align: left;
+  float: left;
+  padding: 10px ;
+  background-color: #cefff1 ;
+}
+.statereg{
+  color: rgb(243, 19, 19);
+  
+}
+.fotter{
+  text-align: center;
+}
