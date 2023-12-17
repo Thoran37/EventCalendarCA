@@ -7,7 +7,7 @@ function Login() {
   let navigate = useNavigate()
   let { register, handleSubmit, formState: { errors } } = useForm()
   function handle(Obj) {
-    fetch(`http://localhost:4000/Admins?username=${Obj.username}`,
+    fetch(`https://my-json-server.typicode.com/Thoran37/JSONForEventCalendar/Admins?username=${Obj.username}`,
       { method: "GET" })
       .then(res => res.json())
       .then(userArray => {
