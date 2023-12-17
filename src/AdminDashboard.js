@@ -7,7 +7,7 @@ export default function AdminDashboard() {
   let [events, setEvents] = useState([]);
   useEffect(() => {
     async function fun() {
-      let res = await fetch('http://localhost:4000/Events')
+      let res = await fetch('https://my-json-server.typicode.com/Thoran37/JSONForEventCalendar/Events')
       let data = await res.json()
       setEvents(data)
     }
