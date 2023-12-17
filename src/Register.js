@@ -156,7 +156,7 @@ function Register() {
             <input
               type="text"
               className="form-control w-75"
-              {...register("imglink", { required: true })}
+              {...register("logo", { required: true })}
             />
           </div>
           <div className="col-12">
