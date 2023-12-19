@@ -5,7 +5,7 @@ import Cards from './Cards'
 function Home() {
   let [events, setEvents] = useState([]);
   useEffect(() => {
-    fetch("https://my-json-server.typicode.com/Thoran37/JSONForEventCalendar/Eventss")
+    fetch("https://my-json-server.typicode.com/Thoran37/JSONForEventCalendar/Events")
       .then((res) => res.json())
       .then((res) => setEvents(res));
   }, []);
